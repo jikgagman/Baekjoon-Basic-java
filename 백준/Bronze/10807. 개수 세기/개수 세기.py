@@ -1,8 +1,5 @@
-n=int(input())
-count=0
-num=list(map(int, input().split()))
-v=int(input())
-for j in range(n):
-    if num[j]==v:
-        count+=1
-print(count)
+n = int(input())
+n_list = list(map(int, input().split()))
+v = int(input())
+
+print(n_list.count(v))
